@@ -96,7 +96,7 @@
       width: 80%;
       margin: 0 auto;
       display: flex;
-      /* justify-content: space-between; */
+      
       align-items: center;
       margin: 0 auto;
       min-height: 100vh;
@@ -115,21 +115,9 @@
 
   }
 
+   
   
-  .word-section{
-      background: black;
-      height: 550px;
-      margin: 10%;
-      color: white;
-      padding: 7%;
-      margin-top: 11%;
-      width: 50%
-      
-      
-      /* padding-right:10%; */
-
-  }
-  #flex {
+  #fle {
      width: 80%;
     margin: 0 auto;
     min-height: 100vh;
@@ -138,28 +126,71 @@
    
     
   }
-  .black {
-    background-color: black;
-    height: 85vh;
-    margin: auto;
-    color: #ffffff;
-    width: 50%;
-
-  }
-  .image-section {
-    width: 45%;
-    margin-left: 20%;
-  }
-  .image {
-    background-image: url(../images/Header\ Image\ \(7\).png);
-    background-position: center;
+  .pro-sect {
+    width:80% ;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
     min-height: 100vh;
-    background-repeat: no-repeat;
-    /* width: 55%; */
-    padding-left: 40%;
     
   }
-  .word-section p { 
+  .prob {
+   background-color: black;
+   color: #ffffff;
+   padding: 30px;
+   margin-bottom: 35px;
+   margin-top: 8px; 
+  }
+  .pic {
+    background-image: url(../images/Header\ Image\ \(7\).png);
+    
+    background-repeat: no-repeat;
+  }
+  .pic img {
+    width: 100%;
+  }
+  .problem p  {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .orange-button a {
+    padding-top: 40px;
+    
+  }
+  .problem h1 {
+    font-size: 48px;
+  }
+
+  
+  .image img {
+    height: 294px;
+     width: 100%;
+    
+    border-radius: 0px;  
+  }
+ 
+  
+  
+  
+    
+
+   .word {
+     min-height: auto;
+     /* width: 550px; */
+
+   }
+   .content {
+     background-color: black;
+     width: 550px;
+     color: white;
+     height: 80vh ;
+     margin: 0 auto;
+    
+   }   
+    
+  
+  .content p h1 { 
    width: 400px;
    padding-right: 30px;
   }
@@ -411,8 +442,13 @@ image {
   padding: 10px;
  
 }
+.pic img {
+  visibility: hidden;
+}
 .fort {
-  background-color: #ffffff;
+  background-color: rgb(247, 240, 240);
+  padding-top: 50px;
+  padding-bottom: 50px;
 
 }
 .forty {
@@ -429,6 +465,10 @@ justify-content: space-around;
 .sent p {
   margin-top: 15px;
 }
+
+
+
+
 
 
 
